@@ -1,0 +1,26 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rules": {
+    "max-line-length": [
+      true,
+      160
+    ],
+    "semicolon": true,
+    "no-console": false,
+    "eofline": true,
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "object-literal-sort-keys": false,
+    "no-shadowed-variable": false,
+    "trailing-comma": false,
+    "no-bitwise": false,
+    "ordered-imports": false
+  },
+  "rulesDirectory": []
+}

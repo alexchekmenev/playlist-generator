@@ -1,0 +1,9 @@
+<Library>
+	<Artist name="10,000 Maniacs">
+	</Artist>
+	<Artist name="2 Unlimited">
+	</Artist>
+	<Artist name="2PAC">
+		<Song name="123456" id='1' duration='206706'/>
+	</Artist>
+</Library>

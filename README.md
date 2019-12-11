@@ -6,12 +6,12 @@ make playlists. The playlist consists of songs, where each song
 song ends. The application should process requests from users to 
 create a playlist of length K (the first song is selected randomly).
 
-The problem described above is reduced to the problem of finding 
-the longest path in a directed graph. Since the graph based on 
-the provided list of songs contains cycles, the problem does not 
-have a polynomial solution. Therefore, the problem was solved 
-using k-SGL heuristics, given in 
-[master's work](http://www.scholvin.com/thesis.pdf) (pages 29-33), 
+The problem described above is reduced to the [problem of finding 
+the longest path](https://en.wikipedia.org/wiki/Longest_path_problem) 
+in a directed graph. Since the graph based on the provided list 
+of songs contains cycles, the problem does not have a polynomial 
+solution. Therefore, the problem was solved using k-SGL heuristics, 
+given in [master's work](http://www.scholvin.com/thesis.pdf) (pages 29-33), 
 as the most effective for the structure of the resulting directed 
 graph.
 

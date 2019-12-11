@@ -21,7 +21,9 @@ An example of request and response is shown below:
 
 ```bash
 curl -X GET 'http://localhost:5000/playlists?length=5'
+```
 
+```json
 {
     "songs": [
         {
